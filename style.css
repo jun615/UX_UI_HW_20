@@ -288,7 +288,7 @@ body {
     position: absolute;
     top: 4790px;
     right: 50px;
-    height: 1830px;  
+    height: 3330px;  
 }
 .display-6 {
     font-family: 'Noto Serif', serif;
@@ -336,4 +336,69 @@ body {
     position: absolute;
     left: 240px;
     top: 1065px;
+}
+.lofi1 { 
+    color: rgb(0, 0, 0);  
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    font-family: 'Quicksand', sans-serif;
+    top: 1590px;
+    left: 30px;     
+}
+.hifi {
+    display: flex;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(0, 0, 0);  
+    left: 565px;
+    top: 1855px;   
+}
+.hifipic {
+    display: flex;
+    position: absolute;
+    left: 55px;
+    top: 1915px;
+}
+.hifipic2 {
+    display: flex;
+    position: absolute;
+    left: 640px;
+    top: 1915px;
+}
+.hifi-2 {
+    color: rgb(0, 0, 0);  
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    font-family: 'Quicksand', sans-serif;
+    top: 2335px;
+    left: 30px;     
+}
+.prototype {
+    display: flex;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(0, 0, 0);  
+    left: 565px;
+    top: 2585px;   
+}
+.protolink {
+    display: flex;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(0, 0, 0);  
+    left: 535px;
+    top:3185px; 
+    font-size: 25px;
+    color: blue;    
+    text-decoration: underline;
+}
+.svgpic {
+    display: flex;
+    position: absolute;
+    left: 240px;
+    top: 2640px;
 }
