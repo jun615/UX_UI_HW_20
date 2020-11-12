@@ -3,6 +3,24 @@ body {
     padding: 0px;
     margin: 0px;
 }
+.scrollhead {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+    .progress-container {
+    width: 100%;
+    height: 8px;
+    background:none;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background: #952525;
+    width: 0%;
+  }
 .navbar {
     text-align: end;
     font-size: 30px;
@@ -10,7 +28,7 @@ body {
     height: 120px;
     width: 14.5%;
     font-family: "Lato", sans-serif;
-    display: inline-block;
+    display: flex;
     color: white;
     align-items: flex-end;
   }
@@ -22,7 +40,7 @@ body {
     display: flex;
     right: 1600px;
     font-size: 80px;
-    top: 30px;
+    top: 50px;
 }
 .namebar {
     position: relative;
@@ -36,7 +54,7 @@ body {
     position: absolute;
     display: flex;
     right: 1540px;
-    top: 55px;
+    top: 75px;
     font-size: 50px;
 }
 .menuBar {
@@ -62,7 +80,7 @@ body {
     width: 523px;
     height: 1px;
     position: absolute;
-    top: 117px;
+    top: 140px;
     right: 0px;
   }
   .title {
@@ -110,11 +128,12 @@ body {
 .sideMenu {
    
     display: flex;
-    position: absolute;
+    position: fixed;
     color: white;
     list-style-type: none;
     left: 100px;
     top: 346px;
+
 }
 
  .sideMenu, .sideList {
