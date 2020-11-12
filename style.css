@@ -25,7 +25,12 @@ body {
     top: 34px;
 }
 .namebar {
-
+    position: relative;
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    top: -40px;
+    left: 185px;
 }
 .junn {
     position: absolute;
@@ -422,7 +427,7 @@ footer {
     position: absolute;
     width: 300px;
     height: 133px;
-    top: 1020px;
+    top: 950px;
     margin-bottom: 0px;
 }
 .junfooter {
@@ -446,7 +451,7 @@ footer {
     height: 50px;
     width: 1px;
     background-color: white;
-    top: 70px;
+    top: 75px;
     left: 185px;
 }
 .menuNavBottom {
@@ -455,16 +460,23 @@ footer {
     display: flex;
     list-style-type: none;
     margin-right: 9px;
+    
 }
 .redbarfooter {
     background-color: #952525;
-    width: 790px;
+    width: 1050px;
     height: 1px;
-    position: relative;
-    top: 372px;
-    right: 1000px;
+    position: absolute;
+    display: flex;
+    left: 740px;
+    top: 902px;
     padding: 0px;
 }
 .space {
     padding-right: 100px;
+    display: flex;
+    position: relative;
+    left:700px;
+    top:104px
+
 }
