@@ -20,23 +20,23 @@ body {
 .jun {   
     position: absolute;
     display: flex;
-    right: 1590px;
+    right: 1600px;
     font-size: 80px;
-    top: 34px;
+    top: 30px;
 }
 .namebar {
     position: relative;
     height: 50px;
     width: 1px;
     background-color: white;
-    top: -40px;
-    left: 185px;
+    top: -60px;
+    left: 192px;
 }
 .junn {
     position: absolute;
     display: flex;
     right: 1540px;
-    top: 59px;
+    top: 55px;
     font-size: 50px;
 }
 .menuBar {
@@ -55,7 +55,7 @@ body {
     position: relative;
     display: inline;
     margin: 20px;
-    top: 7px;
+    top: -53px;
 }
 .redbar {
     background-color: #952525;
