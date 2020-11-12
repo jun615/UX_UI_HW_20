@@ -24,6 +24,9 @@ body {
     font-size: 80px;
     top: 34px;
 }
+.namebar {
+
+}
 .junn {
     position: absolute;
     display: flex;
@@ -289,6 +292,7 @@ body {
     top: 4790px;
     right: 50px;
     height: 3330px;  
+    margin-bottom: 300px;
 }
 .display-6 {
     font-family: 'Noto Serif', serif;
@@ -401,4 +405,66 @@ body {
     position: absolute;
     left: 240px;
     top: 2640px;
+}
+footer {
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding-top: 500px;
+    margin: 0px;
+    height: 150px;
+    display: flex;
+    position: absolute;
+    top: 7300px;
+}
+.logofooter {
+    background-color: #952525;
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 133px;
+    top: 1020px;
+    margin-bottom: 0px;
+}
+.junfooter {
+    width: fit-content;
+    height: 0px;
+    font-size: 60px;
+    position: relative;
+    top: 62px;
+    left: 184px;  
+}
+.junnfooter {
+    width: fit-content;
+    height: 0px;
+    font-size: 40px;
+    position: relative;
+    top:75px;
+    left: 190px;
+}
+.slashfooter {
+    position: relative;
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    top: 70px;
+    left: 185px;
+}
+.menuNavBottom {
+    position: absolute;
+    top: 925px;
+    display: flex;
+    list-style-type: none;
+    margin-right: 9px;
+}
+.redbarfooter {
+    background-color: #952525;
+    width: 790px;
+    height: 1px;
+    position: relative;
+    top: 372px;
+    right: 1000px;
+    padding: 0px;
+}
+.space {
+    padding-right: 100px;
 }
